@@ -1026,8 +1026,8 @@ section:first-of-type {
     }
 
     .hero-profile-img {
-        width: 150px;
-        height: 150px;
+        width: 400px;
+        height: 500px;
     }
 
     .profile-img {
@@ -1060,5 +1060,36 @@ section:first-of-type {
         width: 90%;
         font-size: 0.9rem;
         padding: 10px;
+    }
+}
+
+/* Place profile image above text on mobile */
+@media (max-width: 576px) {
+    .hero-section .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-section .col-lg-6:first-child {
+        order: 2;
+        /* Text comes after image */
+    }
+
+    .hero-section .col-lg-6:last-child {
+        order: 1;
+        /* Image comes first */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-section h1,
+    .hero-section h2,
+    .hero-section p,
+    .hero-description,
+    .hero-buttons {
+        text-align: center;
     }
 }
