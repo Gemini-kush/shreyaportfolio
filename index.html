@@ -1,423 +1,568 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portfolio - Shreya Sharma</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shreya Sharma — Emerging Business Analyst</title>
+    <meta
+      name="description"
+      content="Portfolio of Shreya Sharma — Emerging Business Analyst. Experience, projects, skills, education, and contact details."
+    />
 
-        <!-- Bootstrap -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-            rel="stylesheet" />
-        <!-- Font Awesome -->
-        <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-            rel="stylesheet" />
-        <!-- AOS -->
-        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css"
-            rel="stylesheet" />
+    <!-- Fonts & Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/
+      /6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/yourkitid.js"
+      crossorigin="anonymous"
+    ></script>
 
-        <link rel="stylesheet" href="index.css" />
-    </head>
-    <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="80"
-        tabindex="0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="nav-wrap" id="navbar">
+      <nav class="nav container">
+        <a class="logo" href="#home">Shreya <span>Sharma</span></a>
+        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-            <div class="container position-relative">
-                <a class="navbar-brand fw-bold" href="#">Shreya Sharma</a>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto position-relative">
-                        <li class="nav-item"><a class="nav-link"
-                                href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link"
-                                href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link"
-                                href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link"
-                                href="#contact">Contact</a></li>
-                        <!-- Underline lives inside the UL so its positioning is correct -->
-                        <div class="nav-underline"></div>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero container reveal">
+        <div class="hero-left">
+          <h1>Shreya Sharma</h1>
+          <p class="sub">Emerging Business Analyst</p>
+          <p class="lead">
+            Business Analyst with internship & freelance experience across
+            finance and service domains. Skilled in FRD/BRD, wireframing, Figma,
+            Power BI and client communication.
+          </p>
 
-        <!-- Hero Section -->
-        <section class="hero-section" data-aos="fade-up" id="header">
-            <div class="container">
-                <div class="row align-items-center">
-                    <!-- Left: Profile Image -->
-                    <div class="col-md-5 text-center mb-4 mb-md-0"
-                        data-aos="fade-right">
-                        <img src="Ellipse 1.png" alt="Shreya Sharma"
-                            class="hero-profile-img">
-                    </div>
-                    <!-- Right: Text Content -->
-                    <div class="col-md-7 text-md-start text-center"
-                        data-aos="fade-left">
-                        <h1 class="fw-bold">I'm <span>Shreya Sharma</span></h1>
-                        <h2 class="mb-3">
-                            I'm a <span class="typewriter-text">Business Analyst
-                                & Product Consultant</span>
-                        </h2>
+          <!-- Social Links -->
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/your-profile"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
 
-                        <p class="hero-description text-muted mb-4 fs-3">
-                            <i class="fas fa-quote-left"></i>
-                            I collaborate with visionary business owners to
-                            craft <span class="highlight">impactful
-                                solutions</span>,
-                            design strategies that work, and work hand-in-hand
-                            with talented developers to bring them to life.
-                            <i class="fas fa-quote-right"></i>
-                        </p>
-
-                        <div class="hero-buttons">
-                            <a
-                                href="https://www.linkedin.com/in/shreya-sharma-504317253"
-                                \
-                                target="_blank"
-                                class="btn btn-outline-primary me-2">
-                                <i class="fab fa-linkedin"></i> LinkedIn
-                            </a>
-                            <a
-                                href="https://wa.me/qr/2ZGD6P42JYOCB1"
-                                target="_blank"
-                                class="btn btn-outline-success">
-                                <i class="fab fa-whatsapp"></i> WhatsApp
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About -->
-        <section id="about" data-aos="fade-up">
-            <div class="container">
-                <h3 class="section-title">About Me</h3>
-
-                <div class="about-card">
-                    <p>
-                        <i class="fas fa-quote-left quote-icon"></i>
-                        I am a <span class="highlight">Freelance Product
-                            Consultant</span> who helps business owners turn
-                        ideas into
-                        <span class="highlight">practical digital
-                            solutions</span>. My process starts with
-                        understanding your goals,
-                        gathering detailed requirements, and designing
-                        application flows that are easy to follow.
-                        I work closely with skilled developers to bring these
-                        designs to life – ensuring your business runs smoother
-                        and grows digitally. Whether it's a <span
-                            class="highlight">booking system</span>, an
-                        <span class="highlight">e-commerce platform</span>,
-                        inventory management, or a service-based application,
-                        I focus on delivering solutions that are both functional
-                        and user-friendly.
-                        <i class="fas fa-quote-right quote-icon"></i>
-                    </p>
-                </div>
-
-                <div class="row mt-4 about-features">
-                    <div class="col-md-6 feature-item" data-aos="fade-right">
-                        <i class="fas fa-briefcase"></i>
-                        <span>Freelance Product Consultant</span>
-                    </div>
-                    <div class="col-md-6 feature-item" data-aos="fade-left">
-                        <i class="fas fa-pencil-ruler"></i>
-                        <span>Application Flow & Design</span>
-                    </div>
-                    <div class="col-md-6 feature-item" data-aos="fade-right">
-                        <i class="fas fa-tasks"></i>
-                        <span>Requirement Gathering & Analysis</span>
-                    </div>
-                    <div class="col-md-6 feature-item" data-aos="fade-left">
-                        <i class="fas fa-link"></i>
-                        <span>Bridging Ideas & Technology</span>
-                    </div>
-                    <div class="col-md-6 feature-item" data-aos="fade-up">
-                        <i class="fas fa-chart-line"></i>
-                        <span>Digital Growth Support</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services -->
-        <section id="services" class="bg-white py-5" data-aos="fade-up">
-            <div class="container">
-                <h3 class="section-title text-center mb-5">Services I Offer</h3>
-                <div class="row align-items-center">
-
-                    <!-- Left Column: Image -->
-                    <div class="col-md-6 mb-4" data-aos="fade-right"
-                        data-aos-delay="100">
-                        <img src="service 2.jpg" style="width: 100%;"
-                            alt="Services"
-                            class="img-fluid rounded-3 shadow">
-                    </div>
-
-                    <!-- Right Column: Offers -->
-                    <div class="col-md-6">
-                        <div class="service-offer mb-5" data-aos="fade-left"
-                            data-aos-delay="200">
-                            <h5><i class="fas fa-lightbulb"></i> Application
-                                Flow & Wireframing</h5>
-                            <p class="mb-4">End-to-end planning and workflow
-                                design to ensure
-                                smooth development.</p>
-                        </div>
-                        <div class="service-offer mb-5" data-aos="fade-left"
-                            data-aos-delay="300">
-                            <h5><i class="fas fa-laptop-code"></i> Application &
-                                Website Design</h5>
-                            <p class="mb-4">Creating clear, attractive, and
-                                functional
-                                designs that connect with your audience.</p>
-                        </div>
-                        <div class="service-offer mb-5" data-aos="fade-left"
-                            data-aos-delay="400">
-                            <h5><i class="fa-solid fa-link"></i> Digital
-                                Solutions for Your Business</h5>
-                            <p class="mb-4">Helping you transform your business
-                                processes
-                                into efficient digital solutions.</p>
-                        </div>
-                        <div class="service-offer" data-aos="fade-left"
-                            data-aos-delay="500">
-                            <h5><i class="fa-solid fa-chart-line"></i> Business
-                                Digital Growth & Marketing Support</h5>
-                            <p>Guiding you with strategies and tools to grow
-                                your business online.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects -->
-        <section id="projects" data-aos="fade-up">
-            <div class="container">
-                <h3 class="section-title">Project Showcase</h3>
-                <div class="row">
-                    <div class="col-12 mb-4" data-aos="zoom-in"
-                        data-aos-delay="100">
-
-                        <!-- Project 1 -->
-                        <div class="card project-card mb-3">
-                            <img src="boutique 0.jpg" class="card-img-top"
-                                alt="Boutique Inventory App">
-                            <div class="card-body">
-                                <h5 class="card-title">Boutique Inventory
-                                    Management App</h5>
-                                <p class="card-text">A boutique app with product
-                                    inventory, multiple color options, manual
-                                    delivery zones, and integrated payment
-                                    gateway.</p>
-                                <button class="btn btn-sm btn-primary"
-                                    data-bs-toggle="modal"
-                                    data-bs-target="#figmaModal1">Figma
-                                    Design</button>
-                                <a href="#"
-                                    class="btn btn-sm btn-outline-secondary">Live
-                                    Demo</a>
-                            </div>
-                        </div>
-
-                        <!-- Project 2 -->
-                        <div class="card project-card mb-3">
-                            <img src="lodge 1.jpg" class="card-img-top"
-                                alt="Lodge Booking App">
-                            <div class="card-body">
-                                <h5 class="card-title">Lodge Booking Management
-                                    System</h5>
-                                <p class="card-text">A digital solution for
-                                    lodge owners to manage room bookings, guest
-                                    records, and check-in/check-out
-                                    processes. <br>Includes OTP-based
-                                    authentication, availability calendar, and
-                                    booking history tracking for efficient lodge
-                                    operations.</p>
-                                <button class="btn btn-sm btn-primary"
-                                    data-bs-toggle="modal"
-                                    data-bs-target="#figmaModal2">Figma
-                                    Design</button>
-                                <a href="#"
-                                    class="btn btn-sm btn-outline-secondary">Live
-                                    Demo</a>
-                            </div>
-                        </div>
-
-                        <!-- Project 3 -->
-                        <div class="card project-card">
-                            <img src="medical 1.jpg" class="card-img-top"
-                                alt="Medical Shop App">
-                            <div class="card-body">
-                                <h5 class="card-title">Medical Shop</h5>
-                                <p class="card-text">A simplified medical store
-                                    management system with combined order
-                                    handling for cart, uploaded and typed
-                                    prescriptions. <br>Features offer
-                                    management, user management and contact
-                                    queries, tailored for offline delivery
-                                    handling.</p>
-                                <button class="btn btn-sm btn-primary"
-                                    data-bs-toggle="modal"
-                                    data-bs-target="#figmaModal3">Figma
-                                    Design</button>
-                                <a href="#"
-                                    class="btn btn-sm btn-outline-secondary">Live
-                                    Demo</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Modal for Project 1 -->
-        <div class="modal fade" id="figmaModal1" tabindex="-1"
-            aria-labelledby="figmaModal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content text-center p-4">
-                    <h5 class="mb-3">Boutique Inventory Management App</h5>
-                    <a
-                        href="https://www.figma.com/proto/e0WX023m3Ad4sswlClnXEx/boutique?node-id=304-529&t=DtbVQIidisOw9CXB-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
-                        target="_blank"
-                        class="btn btn-primary mb-2">User Panel</a>
-                    <a
-                        href="https://www.figma.com/proto/e0WX023m3Ad4sswlClnXEx/boutique?node-id=82-409&t=qjQ80lgFmR2QLCi4-1&scaling=min-zoom&content-scaling=fixed&page-id=81%3A408&starting-point-node-id=82%3A409&show-proto-sidebar=1"
-                        target="_blank"
-                        class="btn btn-outline-secondary">Admin Panel</a>
-                </div>
-            </div>
+          <!-- Buttons -->
+          <div class="cta">
+            <a href="#contact" class="btn primary">Hire Me</a>
+          </div>
+          <div>
+            <a href="shreyaSharmacv.pdf" class="btn ghost" download
+              >Download Resume</a
+            >
+            <a href="shreyaSharmacv.pdf" class="btn ghost" target="_blank"
+              >View Resume</a
+            >
+          </div>
         </div>
 
-        <!-- Modal for Project 2 -->
-        <div class="modal fade" id="figmaModal2" tabindex="-1"
-            aria-labelledby="figmaModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content text-center p-4">
-                    <h5 class="mb-3">Lodge Booking Management System</h5>
-                    <a
-                        href="https://www.figma.com/proto/3Lg2j73Ij6NTuMRQPNwC1V/Figma-basics?node-id=1414-7123&t=7uvLO8S4eoM6XV39-0&scaling=min-zoom&content-scaling=fixed&page-id=1669%3A162202"
-                        target="_blank"
-                        class="btn btn-primary mb-2">Figma Model</a>
-                </div>
-            </div>
+        <div class="hero-right">
+          <div class="profile-wrap">
+            <img src="images/profile.png" alt="Portrait of Shreya Sharma" />
+          </div>
         </div>
+      </section>
 
-        <!-- Modal for Project 3 -->
-        <div class="modal fade" id="figmaModal3" tabindex="-1"
-            aria-labelledby="figmaModal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content text-center p-4">
-                    <h5 class="mb-3">Medical Shop</h5>
-                    <a
-                        href="https://www.figma.com/proto/oLahGNxHroIz2fNtA2yFhj/map?node-id=2-323&t=g8eAxnhsGiJavROp-0&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=201%3A160"
-                        target="_blank"
-                        class="btn btn-primary mb-2">User Panel</a>
-                    <a
-                        href="https://www.figma.com/proto/oLahGNxHroIz2fNtA2yFhj/map?node-id=379-220&t=g8eAxnhsGiJavROp-0&scaling=min-zoom&content-scaling=fixed&page-id=379%3A219&starting-point-node-id=381%3A220"
-                        target="_blank"
-                        class="btn btn-outline-secondary">Admin Panel</a>
-                </div>
-            </div>
+      <!-- ABOUT -->
+      <section id="about" class="about section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I am an <strong>Emerging Business Analyst</strong> with internship
+            and freelance experience across finance and service-based domains. I
+            specialize in bridging the gap between business needs and technical
+            solutions, ensuring that products deliver real value to end users.
+          </p>
+          <p>
+            My core skills include
+            <strong
+              >requirement gathering, FRD/BRD documentation, wireframing, data
+              visualization with Power BI,</strong
+            >
+            and client communication. I am proficient with tools such as
+            <strong>Figma</strong> for UI/UX design and collaborate effectively
+            with developers to ensure smooth project delivery.
+          </p>
+          <p>
+            Over the course of my projects, I have contributed to building
+            solutions like a
+            <strong
+              >hotel booking platform, medical ordering system, and boutique
+              management application</strong
+            >. In each case, I played a pivotal role in translating client
+            requirements into functional specifications and intuitive user
+            experiences.
+          </p>
+          <p>
+            I am passionate about solving business challenges through
+            data-driven insights and user-centered design. My goal is to grow as
+            a versatile analyst, work on large-scale enterprise projects, and
+            contribute to digital transformation in industries like finance,
+            healthcare, and e-commerce.
+          </p>
         </div>
+      </section>
 
-        <!-- Contact -->
-        <section id="contact" data-aos="fade-up">
-            <!-- Top Wave -->
-            <div class="wave-top"
-                style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 1200 100\' preserveAspectRatio=\'none\'><path d=\'M0,30 C300,100 900,0 1200,30 L1200,100 L0,100 Z\' fill=\'%23fff0db\'/></svg>');">
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section container">
+        <h2>Experience</h2>
+
+        <article class="exp">
+          <h3>
+            Freelance Business Analyst
+            <span class="muted">— Self-employed (Remote)</span>
+          </h3>
+          <p class="muted small">Jun 2025 – Present</p>
+          <ul>
+            <li>
+              Handled end-to-end business analysis for 3 freelance projects:
+              Hotel Booking & Order Tracking, Medical Order & Delivery, Boutique
+              Ordering & Inventory.
+            </li>
+            <li>
+              Prepared FRD/BRDs, created wireframes and coordinated between
+              clients & developers.
+            </li>
+            <li>Learned hosting & deployment basics (GoDaddy, cPanel).</li>
+          </ul>
+        </article>
+
+        <article class="exp">
+          <h3>
+            Business Analyst Intern
+            <span class="muted">— Prayas Finance, Gurgaon</span>
+          </h3>
+          <p class="muted small">Jan 2025 – Apr 2025</p>
+          <ul>
+            <li>
+              Created 5+ FRD/BRD documents; designed wireframes and prototypes
+              with Balsamiq and Figma.
+            </li>
+            <li>
+              Worked with cross-functional teams during Agile sprints to refine
+              requirements.
+            </li>
+          </ul>
+        </article>
+
+        <article class="exp">
+          <h3>
+            Business Development Analyst Trainee
+            <span class="muted">— J-Monk DevOps Pvt Ltd</span>
+          </h3>
+          <p class="muted small">Dec 2024 – Jan 2025</p>
+          <ul>
+            <li>
+              Conducted market research, supported lead generation and client
+              outreach.
+            </li>
+          </ul>
+        </article>
+
+        <article class="exp">
+          <h3>
+            Financial Advisory Intern
+            <span class="muted">— Aditya Birla Capital</span>
+          </h3>
+          <p class="muted small">Mar 2024 – Sep 2024</p>
+          <ul>
+            <li>
+              Advised clients on investments and insurance; passed IRDAI Advisor
+              Certification.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section container">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+          <!-- Pizza -->
+          <div class="project-card">
+            <img src="images/pizza dashboard.jpg" alt="Pizza Sales Dashboard" />
+            <div class="project-content">
+              <h4>Pizza Sales Dashboard (Power BI)</h4>
+              <p>
+                Dashboard analyzing orders, sales trends and top-performing days
+                using DAX & slicers.
+              </p>
+              <div class="actions">
+                <a
+                  href="projects/pizza dashboard.pdf"
+                  target="_blank"
+                  class="btn primary"
+                  >View</a
+                >
+              </div>
             </div>
+          </div>
 
-            <div class="container text-center">
-                <h3 class="section-title">Get in Touch</h3>
-                <p class="contact-intro">I’m always open to discussing new
-                    projects, creative ideas, or opportunities to
-                    collaborate.</p>
-
-                <div class="contact-card">
-                    <div class="contact-item">
-                        <i class="fas fa-user"></i> Shreya Sharma
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a
-                            href="mailto:sharma027shreya@gmail.com">sharma027shreya@gmail.com</a>
-                    </div>
-                    <div class="contact-buttons">
-                        <a href="https://wa.me/qr/2ZGD6P42JYOCB1"
-                            class="btn btn-whatsapp"><i
-                                class="fab fa-whatsapp"></i></a>
-                        <a
-                            href="https://www.linkedin.com/in/shreya-sharma-504317253"
-                            class="btn btn-linkedin"><i
-                                class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
+          <!-- Dairy -->
+          <div class="project-card">
+            <img src="images/dairy_dashboard.png" alt="Dairy Sales Dashboard" />
+            <div class="project-content">
+              <h4>Dairy Sales Dashboard (Power BI)</h4>
+              <p>
+                Visualized product-wise and region-wise sales, shelf-life trends
+                and KPIs.
+              </p>
+              <div class="actions">
+                <a
+                  href="projects/dairy_dashboard.pdf"
+                  target="_blank"
+                  class="btn primary"
+                  >View</a
+                >
+              </div>
             </div>
+          </div>
 
-            <!-- Bottom Wave -->
-            <div class="wave-bottom"
-                style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 1200 100\' preserveAspectRatio=\'none\'><path d=\'M0,30 C300,100 900,0 1200,30 L1200,100 L0,100 Z\' fill=\'%23fff0db\'/></svg>');">
+          <!-- Hotel -->
+          <div class="project-card">
+            <img src="images/lodge.jpg" alt="Hotel Booking & Order Tracking" />
+            <div class="project-content">
+              <h4>Hotel Booking & Order Tracking (Freelance)</h4>
+              <p>
+                End-to-end coordination, FRD/BRD, wireframes and deployment
+                guidance.
+              </p>
+              <div class="actions">
+                <a
+                  href="https://nilanjanagroup.com/lodge/"
+                  target="_blank"
+                  class="btn primary"
+                  >Live</a
+                >
+                <a href="projects/LODGE.pdf" target="_blank" class="btn ghost"
+                  >View</a
+                >
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!-- Scripts -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-        <script>
-AOS.init({ duration: 1000, once: true });
+          <!-- Medical -->
+          <div class="project-card">
+            <img
+              src="images/medical.jpg"
+              alt="Medical Order & Delivery Management"
+            />
+            <div class="project-content">
+              <h4>Medical Order & Delivery Management</h4>
+              <p>
+                Requirements, flows and UI prototypes for order tracking and
+                delivery management.
+              </p>
+              <div class="actions">
+                <a
+                  href="https://nilanjanagroup.com/medical/"
+                  target="_blank"
+                  class="btn primary"
+                  >Live</a
+                >
+              </div>
+            </div>
+          </div>
 
-const navbar = document.querySelector('.navbar');
-const navLinks = document.querySelectorAll('.nav-link');
-const underline = document.createElement('div');
-underline.classList.add('nav-underline');
-document.querySelector('.navbar-nav').appendChild(underline);
+          <!-- Boutique -->
+          <div class="project-card">
+            <img
+              src="images/boutique.jpg"
+              alt="Boutique Ordering & Inventory"
+            />
+            <div class="project-content">
+              <h4>Boutique Ordering & Inventory Application</h4>
+              <p>
+                Designed FRDs, workflows and wireframes for a boutique platform
+                with product catalog, order management and inventory tracking.
+              </p>
+              <div class="actions">
+                <a
+                  href="https://nilanjanagroup.com/boutique/"
+                  target="_blank"
+                  class="btn primary"
+                  >Live</a
+                >
+              </div>
+            </div>
+          </div>
 
-function updateUnderline(el) {
-    const rect = el.getBoundingClientRect();
-    const navRect = el.parentElement.getBoundingClientRect();
-    underline.style.left = `${el.offsetLeft}px`;
-    underline.style.width = `${el.offsetWidth}px`;
-    underline.style.boxShadow = '0 0 12px var(--accent-color)';
-    setTimeout(() => {
-        underline.style.boxShadow = '0 0 8px var(--accent-color)';
-    }, 200);
-}
+          <!-- ATS -->
+          <div class="project-card">
+            <img src="images/ats.jpg" alt="Audit Management System (ATS)" />
+            <div class="project-content">
+              <h4>Audit Management System (ATS)</h4>
+              <p>
+                UX case study simplifying audit issue management with
+                dashboards, real-time tracking, role-based access and smart
+                escalations.
+              </p>
+              <div class="actions">
+                <a href="projects/ATS.pdf" target="_blank" class="btn primary"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-// Smooth underline move when active section changes
-function setActiveLink() {
-    let index = navLinks.length;
-    while (--index && window.scrollY + 100 < document.querySelector(navLinks[index].hash).offsetTop) {}
-    navLinks.forEach(link => link.classList.remove('active'));
-    navLinks[index].classList.add('active');
-    updateUnderline(navLinks[index]);
-}
+      <!-- SKILLS -->
+      <section id="skills" class="section container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h5>Business Analysis</h5>
+            <p>FRD / BRD, Use Cases, UML, BPMN, Flowcharts</p>
+          </div>
+          <div class="skill">
+            <h5>Tools</h5>
+            <p>Figma, Balsamiq, Lucidchart, MS Word, Excel, PowerPoint</p>
+          </div>
+          <div class="skill">
+            <h5>Data & Tech</h5>
+            <p>Power BI, Dashboards, Advanced Excel, Macros, Basic SQL</p>
+          </div>
+          <div class="skill">
+            <h5>Technical Knowledge</h5>
+            <p>
+              Frontend (HTML/CSS basics), Backend concepts, Hosting & deployment
+            </p>
+          </div>
+        </div>
+      </section>
 
-setActiveLink();
-window.addEventListener('scroll', () => {
-    setActiveLink();
-    navbar.classList.toggle('scrolled', window.scrollY > 10);
-});
+      <!-- EDUCATION -->
+      <section id="education" class="section container">
+        <h2>Education</h2>
+        <div class="edu">
+          <h3>Bachelor of Business Administration (BBA)</h3>
+          <p class="muted small">
+            Swami Vivekananda Institute of Modern Science, MAKAUT — 2021–2024
+          </p>
+          <p>CGPA: <strong>8.11</strong> (Ranked 1st out of 120 students)</p>
+        </div>
+      </section>
 
-navLinks.forEach(link => {
-    link.addEventListener('click', e => {
-        setTimeout(() => updateUnderline(link), 300);
-    });
-});
+      <!-- CERTIFICATIONS -->
+      <section id="certificates" class="section">
+        <div class="container">
+          <h2>Certificates</h2>
+          <div class="cert-grid">
+            <div class="cert-card">
+              <h3>Business Analysis Fundamentals</h3>
+              <p class="muted">Coursera · 2024</p>
+            </div>
+            <div class="cert-card">
+              <h3>SQL for Data Analytics</h3>
+              <p class="muted">Udemy · 2023</p>
+            </div>
+            <div class="cert-card">
+              <h3>Agile Project Management</h3>
+              <p class="muted">Google · 2023</p>
+            </div>
+            <div class="cert-card">
+              <h3>Power BI Data Visualization</h3>
+              <p class="muted">Microsoft · 2022</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-</script>
-    </body>
+      <!-- CONTACT -->
+      <section id="contact" class="section container">
+        <h2>Get in Touch</h2>
+        <p>
+          If you'd like to discuss a project, collaboration or role — reach out:
+        </p>
+
+        <div class="contact">
+          <!-- Quick Facts -->
+          <div class="card quick-facts">
+            <h3>Quick facts</h3>
+            <ul>
+              <li><strong>Location:</strong> Asansol, West Bengal</li>
+              <li><strong>Languages:</strong> English · Hindi · Bengali</li>
+              <li><strong>CGPA:</strong> 8.11 — BBA (Top of batch)</li>
+              <li><strong>Email:</strong> ss1810301@gmail.com</li>
+              <li><strong>Phone:</strong> +91 62940 23403</li>
+            </ul>
+
+            <!-- Social Icons -->
+            <div class="social-links" style="margin-top: 1rem">
+              <a
+                href="https://linkedin.com/in/shreya-sharma-504317253"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact form -->
+          <form id="contact-form" class="contact-form">
+            <div class="input-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="input-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <div id="toast" class="toast"></div>
+
+    <!-- FOOTER -->
+    <footer class="footer container">
+      <p>© <span id="year"></span> Shreya Sharma — Emerging Business Analyst</p>
+      <p class="muted small">Resume content adapted from CV.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Initialize EmailJS (replace with your public key from EmailJS dashboard)
+        emailjs.init("8d5hQU00xpTx9Pioq");
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach((a) => {
+          a.addEventListener("click", function (e) {
+            const target = document.querySelector(this.getAttribute("href"));
+            if (!target) return;
+            e.preventDefault();
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+            const nav = document.getElementById("nav-links");
+            if (nav.classList.contains("open")) nav.classList.remove("open");
+          });
+        });
+
+        // Footer year
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        // Mobile nav toggle
+        const navToggle = document.getElementById("nav-toggle");
+        const navLinks = document.getElementById("nav-links");
+        navToggle.addEventListener("click", () => {
+          navLinks.classList.toggle("open");
+        });
+
+        // Navbar background on scroll
+        const navWrap = document.querySelector(".nav-wrap");
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 50) navWrap.classList.add("scrolled");
+          else navWrap.classList.remove("scrolled");
+        });
+
+        // Scroll-spy
+        const sections = document.querySelectorAll("section[id]");
+        const navItems = document.querySelectorAll(".nav-links a");
+        window.addEventListener("scroll", () => {
+          let current = "";
+          sections.forEach((section) => {
+            const sectionTop = section.offsetTop - 100;
+            if (scrollY >= sectionTop) current = section.getAttribute("id");
+          });
+          navItems.forEach((a) => {
+            a.classList.remove("active");
+            if (a.getAttribute("href") === "#" + current)
+              a.classList.add("active");
+          });
+        });
+
+        // Toast function
+        function showToast(message, type = "success") {
+          const toast = document.getElementById("toast");
+          toast.textContent = message;
+          toast.className = "toast show " + type;
+          setTimeout(() => {
+            toast.className = "toast " + type;
+          }, 3000);
+        }
+
+        // Contact form submission via EmailJS
+        const form = document.getElementById("contact-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const name = form.name.value.trim();
+          const email = form.email.value.trim();
+          const message = form.message.value.trim();
+
+          if (!name || !email || !message) {
+            showToast("⚠️ Please fill all fields.", "error");
+            return;
+          }
+
+          const sendBtn = form.querySelector("button[type=submit]");
+          const originalText = sendBtn.textContent;
+          sendBtn.disabled = true;
+          sendBtn.textContent = "Sending...";
+
+          emailjs.sendForm("service_6t4476k", "template_pwyjmgv", form).then(
+            function () {
+              showToast(
+                "Message sent successfully! Thanks for reaching out.",
+                "success"
+              );
+              form.reset();
+              sendBtn.disabled = false;
+              sendBtn.textContent = originalText;
+            },
+            function (error) {
+              console.error(error);
+              showToast(
+                "Failed to send or Server Down. Try again later.",
+                "error"
+              );
+              sendBtn.disabled = false;
+              sendBtn.textContent = originalText;
+            }
+          );
+        });
+      });
+    </script>
+  </body>
 </html>
